@@ -423,7 +423,7 @@
 
 /*** Footer ***/
 .footer {
-  color: #e8e8eb;
+  color: #294455;
   background-color: rgb(248, 179, 83);
 }
 
@@ -479,4 +479,10 @@
 .footer .newsletter {
   color: white;
   background-color: var(--dark);
+}
+.newsletter {
+  background-color: var(--secondary);
+  &:hover {
+    background: var(--primary);
+  }
 }
